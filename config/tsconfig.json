@@ -24,6 +24,8 @@
     "forceConsistentCasingInFileNames": true,
     "disableSizeLimit": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": false
+    "emitDecoratorMetadata": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false
   }
 }
