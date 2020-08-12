@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2019 Ayana Developers <devs@ayana.io>
+Copyright (c) 2020 TMUniversal <me@tmuniversal.eu>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
