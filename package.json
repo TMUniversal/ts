@@ -1,12 +1,12 @@
 {
   "name": "@tmuniversal/ts",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "TypeScript config, linting for my projects",
   "author": "TMUniversal <me@tmuniversal.eu>",
   "scripts": {
     "build": "rimraf ./lint/ && tsc",
-		"lint": "tslint --project .",
-		"lint:fix": "tslint --project . --fix",
+    "lint": "tslint --project .",
+    "lint:fix": "tslint --project . --fix",
     "prepublishOnly": "npm run lint && npm run build"
   },
   "dependencies": {
