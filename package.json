@@ -1,0 +1,37 @@
+{
+  "name": "@tmuniversal/ts",
+  "version": "0.1.0",
+  "description": "TypeScript config, linting for my projects",
+  "author": "TMUniversal <me@tmuniversal.eu>",
+  "scripts": {
+    "build": "rimraf ./lint/ && tsc",
+		"lint": "tslint --project .",
+		"lint:fix": "tslint --project . --fix",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
+  "dependencies": {
+    "tslint-config-security": "^1.16.0",
+    "tslint-config-standard": "^9.0.0",
+    "tslint-eslint-rules": "^5.4.0"
+  },
+  "peerDependencies": {
+    "tslint": ">=5.18.0",
+    "typescript": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "rimraf": "^3.0.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMUniversal/ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TMUniversal/ts/issues"
+  },
+  "homepage": "https://github.com/TMUniversal/ts#readme"
+}
