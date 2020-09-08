@@ -4,24 +4,22 @@
   "description": "TypeScript config, linting for my projects",
   "author": "TMUniversal <me@tmuniversal.eu>",
   "scripts": {
-    "build": "rimraf ./lint/ && tsc",
-    "lint": "tslint --project .",
-    "lint:fix": "tslint --project . --fix",
-    "test": "npm run lint",
-    "preversion": "npm test",
+    "lint": "eslint --ext .js,.ts --ignore-path .gitignore",
+    "lint:fix": "yarn lint --fix",
+    "test": "yarn run lint",
+    "preversion": "yarn test",
     "postversion": "git push && git push --tags",
-    "prepublishOnly": "npm run lint && npm run build"
-  },
-  "dependencies": {
-    "tslint-config-security": "^1.16.0",
-    "tslint-config-standard": "^9.0.0",
-    "tslint-eslint-rules": "^5.4.0"
+    "prepublishOnly": "yarn run lint"
   },
   "devDependencies": {
-    "@types/node": "^14.0.27",
+    "eslint": "^7.8.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "rimraf": "^3.0.2",
-    "tslint": "^6.1.3",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.2"
   },
   "license": "MIT",
   "repository": {
