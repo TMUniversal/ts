@@ -1,8 +1,10 @@
-/node_modules/
-/src/
-/tslint.json
-/tsconfig.json
+.github/
+node_modules/
+src/
 *.ts
 *.tgz
 .vscode/
 .gitattributes
+.releaserc.yml
+tslint.json
+tsconfig.json
