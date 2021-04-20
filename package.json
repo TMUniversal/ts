@@ -3,6 +3,9 @@
   "version": "1.2.0",
   "description": "TypeScript config for my projects",
   "author": "TMUniversal <me@tmuniversal.eu>",
+  "files": [
+    "config/**"
+  ],
   "scripts": {
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore",
     "lint:fix": "yarn lint --fix",
