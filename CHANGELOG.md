@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/TMUniversal/ts/compare/v1.2.0...v1.2.1) (2021-04-20)
+
+
+### Bug Fixes
+
+* **package:** include config file ([053e22a](https://github.com/TMUniversal/ts/commit/053e22a9f56aa72d22686e0d1a7f804cc081ecee))
+
 # [1.2.0](https://github.com/TMUniversal/ts/compare/v1.1.2...v1.2.0) (2021-04-20)
 
 
