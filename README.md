@@ -7,11 +7,11 @@ Inspired by [@ayanaware/ts](https://gitlab.com/ayanaware/ts).
 ## Installation
 
 ```bash
-yarn add @tmuniversal/ts tslint typescript --dev
+yarn add @tmuniversal/ts typescript --dev
 ```
 
 ```bash
-npm i @tmuniversal/ts tslint typescript --only=dev
+npm i @tmuniversal/ts typescript --only=dev
 ```
 
 ## Usage
