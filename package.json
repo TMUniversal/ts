@@ -1,6 +1,6 @@
 {
   "name": "@tmuniversal/ts",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "TypeScript config for my projects",
   "author": "TMUniversal <me@tmuniversal.eu>",
   "scripts": {
