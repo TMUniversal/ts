@@ -20,7 +20,7 @@
     "@tmware/semantic-release-npm-github-publish": "^1.4.2",
     "eslint": "^7.24.0",
     "rimraf": "^3.0.2",
-    "semantic-release": "^17.4.2",
+    "semantic-release": "^19.0.3",
     "typescript": "^4.2.4"
   },
   "license": "MIT",
